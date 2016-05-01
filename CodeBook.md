@@ -88,8 +88,11 @@ and then, I merged the data set with the file
 [62] "Frequency_DomainBodyAccelerometerMagnitude-mean()"               
 [63] "Frequency_DomainBodyAccelerometerMagnitude-std()"                
 [64] "Frequency_DomainRelated_To_BodyAccelerometerJerkMagnitude-mean()"
+
 [65] "Frequency_DomainRelated_To_BodyAccelerometerJerkMagnitude-std()" 
+
 [66] "Frequency_DomainRelated_To_BodyGyroscopeMagnitude-mean()"        
+
 [67] "Frequency_DomainRelated_To_BodyGyroscopeMagnitude-std()"         
 [68] "Frequency_DomainRelated_To_BodyGyroscopeJerkMagnitude-mean()"    
 [69] "Frequency_DomainRelated_To_BodyGyroscopeJerkMagnitude-std()"   
