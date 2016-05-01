@@ -3,9 +3,7 @@ title: "CodeBook"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ## Description
 
@@ -100,16 +98,26 @@ and then, I merged the data set with the file
 
 ## Explanation
 
-mean(): Mean value, 
+mean(): Mean value
+
 std(): Standard deviation
+
 Jerk: The sudden movement acceleration. Units in 9.8 meter/sec/sec(time doamin) for the accelerometer; rad/sec/sec (time domain) for the Gyroscope.
+
 Time_Domain: Based on time measurements.
+
 Frequancy_Domain: Based on frequency measurements. If the measurement is in the frequancy domainm, replace "sec" in the units with "Hz".
+
 Related_To_Body: The measurement is performed related to body movement.
+
 Gravity: The measurement of the acceleration of gravity.
+
 Accelerometer: Measured by accelerometer, units in 9.8 meter/sec in the time domain. 
+
 Gyroscope: Measured by the Gyroscope, units in rad/sec
-subject_num: Integers range from 1 to 30, meaning which volumteer
+
+subject_num: Integers range from 1 to 30, each number is corredponding to an individual volumteer
+
 activity_name: one of the six activities the subject performed, including the following
         WALKING
         WALKING_UPSTAIRS
@@ -118,12 +126,15 @@ activity_name: one of the six activities the subject performed, including the fo
         STANDING
         LAYING
 activity_num: Integers ranging from 1 to 6
+---
         1: WALKING
         2: WALKING_UPSTAIRS
         3: WALKING_DOWNSTAIRS
         4: SITTING
         5: STANDING
         6: LAYING
+---
+
 ##Data Set Information:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
