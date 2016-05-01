@@ -125,6 +125,7 @@ activity_name: one of the six activities the subject performed, including the fo
         SITTING
         STANDING
         LAYING
+
 activity_num: Integers ranging from 1 to 6
 ---
         1: WALKING
