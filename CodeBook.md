@@ -1,10 +1,3 @@
----
-title: "CodeBook"
-output: github_document
----
-
-
-
 ## Description
 
 I merged the following file in the "UCI HAR Dataset" folder:
@@ -100,11 +93,6 @@ and then, I merged the data set with the file
 
 
 ## Explanation
-
-mean(): Mean value
-
-std(): Standard deviation
-
 Jerk: The sudden movement acceleration. Units in 9.8 meter/sec/sec(time doamin) for the accelerometer; rad/sec/sec (time domain) for the Gyroscope.
 
 Time_Domain: Based on time measurements.
